@@ -18,7 +18,7 @@ https://codepen.io/shh003/pen/rNaoeae
 
 5. Name two tags that have required attributes
 
-    - href and img
+    - a and img
 
 6. What do we put in the head of our HTML document? 
 
@@ -201,4 +201,12 @@ Stretch Questions
 
 5. In your own words, explain the box model. What is the fix for the box model?
 
-    - 
+    - The box model is a way to give positioning to our HTML elements via CSS. The box model has
+      4 parts: the outermost layer is the margin, inside of that is the border, then padding,
+      and then our content. 
+    
+    - The issue with the box model is that padding and borders are put on all of our elements, so
+      when we have elements that are close together, we may have issues with overlapping. So, to fix
+      this, we just use box-sizing: border-box. This includes padding and borders inside of an elements 
+      width. The result is that if we want a width of 100x100px, the 4 elements above are resized to fit that
+      requirement.
